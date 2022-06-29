@@ -34,6 +34,23 @@ body {
      object-fit: cover;
 }
 
+.swiper-slide.swiper-slide-prev{
+  height: 1000px;
+}
+
+.swiper-slide.swiper-slide-active{
+  height: 1000px;
+  width: 550px;
+}
+
+/* .swiper-wrapper{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.swiper-slide.swiper-slide-next{
+  height: 1000px;
+}
 .container {
   position: relative;
   width: 100%;

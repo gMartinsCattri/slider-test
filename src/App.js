@@ -28,7 +28,7 @@ export default function App() {
         effect={"coverflow"}
         centeredSlides={true}
         slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
-        loop={true}
+        loop={false}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -50,15 +50,8 @@ export default function App() {
         <SwiperSlide>
           <img src="images/3.jpg" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="images/4.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="images/5.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="images/6.jpg" />
-        </SwiperSlide>
+        
+       
       </Swiper>
     </div>
   );
