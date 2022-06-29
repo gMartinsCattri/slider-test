@@ -15,14 +15,7 @@ SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 export default function App() {
   return (
     <div className="container">
-      <div className="title_wrapper">
-        <div className="reactLogo">
-          <img src="images/react.png" />
-        </div>
-        <div className="title_">
-          <span>React</span>Swiper Slider
-        </div>
-      </div>
+      
       <Swiper
         navigation={true}
         effect={"coverflow"}
