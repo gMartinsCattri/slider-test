@@ -38,7 +38,23 @@ export default function App() {
           <img src="images/1.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images/2.jpg" />
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"  data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/ferrari.jpg" class=" image-carrusel d-block w-100" alt="..."></img>
+      <p>image 1</p>
+    </div>
+    <div class="carousel-item">
+      <img src="images/ferrari2.jpg" class=" image-carrusel d-block w-100" alt="..."></img>
+      <p>image 1</p>
+    </div>
+    <div class="carousel-item">
+      <img src="images/ferrari3.jpg" class=" image-carrusel d-block w-100" alt="..."></img>
+      <p>image 1</p>
+    </div>
+  </div>
+  
+</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src="images/3.jpg" />
