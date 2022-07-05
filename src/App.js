@@ -13,6 +13,9 @@ import SwiperCore, {
 SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
 export default function App() {
+  const iframeSource = '<iframe  src="https://static.3dwayfinder.com/projects/680ebd4ea2ae574f7ade24362495555e/Default/"></iframe>'
+
+
   return (
     <div className="container">
       
@@ -57,7 +60,7 @@ export default function App() {
 </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images/3.jpg" />
+        <div className="App" dangerouslySetInnerHTML={{__html: iframeSource}}></div>
         </SwiperSlide>
         
        
